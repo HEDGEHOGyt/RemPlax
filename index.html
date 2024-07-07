@@ -4,85 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PaiPix Website</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #000;
-            color: #fff;
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        .header {
-            margin: 20px 0;
-        }
-        .header img {
-            width: 50px;
-            height: 50px;
-        }
-        .main-banner {
-            background: url('path_to_your_image') no-repeat center center;
-            background-size: cover;
-            width: 90%;
-            height: 200px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 20px;
-            position: relative;
-        }
-        .main-banner .text {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 10px 20px;
-            border-radius: 10px;
-        }
-        .main-banner .text button {
-            margin-top: 10px;
-            padding: 10px 20px;
-            background-color: #fff;
-            color: #000;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .sections {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            width: 90%;
-        }
-        .section {
-            width: 45%;
-            margin: 10px 0;
-            padding: 20px;
-            background-color: #222;
-            border-radius: 10px;
-        }
-        .section img {
-            width: 100%;
-            border-radius: 10px;
-        }
-        .section button {
-            margin-top: 10px;
-            padding: 10px 20px;
-            background-color: #fff;
-            color: #000;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .footer {
-            margin: 20px 0;
-        }
-        .footer img {
-            width: 50px;
-            height: 50px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
@@ -93,33 +15,33 @@
             <div class="text">
                 <h1>PAIPIX-1</h1>
                 <p>NEW AI</p>
-                <button>Read</button>
+                <a href="#paipix1"><button>Read</button></a>
             </div>
         </div>
         <div class="sections">
-            <div class="section">
+            <div class="section" id="paipix1">
                 <img src="path_to_image_1" alt="PaiPix 2">
                 <h2>PAIPIX-2</h2>
                 <p>UPDATE</p>
-                <button>Read</button>
+                <a href="#paipix2"><button>Read</button></a>
             </div>
-            <div class="section">
+            <div class="section" id="paipix2">
                 <img src="path_to_image_2" alt="PaiPix 3">
                 <h2>PAIPIX-3</h2>
                 <p>UPDATE</p>
-                <button>Read</button>
+                <a href="#paipix3"><button>Read</button></a>
             </div>
-            <div class="section">
+            <div class="section" id="fulydat1">
                 <img src="path_to_image_3" alt="FulyDat 1">
                 <h2>FulyDat</h2>
                 <p>Collaboration?</p>
-                <button>Read</button>
+                <a href="#fulydat2"><button>Read</button></a>
             </div>
-            <div class="section">
+            <div class="section" id="fulydat2">
                 <img src="path_to_image_4" alt="FulyDat 2">
                 <h2>FulyDat</h2>
                 <p>Collaboration?</p>
-                <button>Read</button>
+                <a href="#fulydat3"><button>Read</button></a>
             </div>
         </div>
         <div class="footer">
